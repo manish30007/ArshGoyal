@@ -1,11 +1,7 @@
-#include<iostream>
 #include<bits/stdc++.h>
-#include<vector>
-
 using namespace std;
 class Solution{
-    public:
-
+public:
 vector<vector<string>> Anagram(vector<string>& a){
 map<string ,vector<string>> m;
 for(int i=0; i<a.size();i++){
@@ -26,7 +22,6 @@ for(auto x:m){
 return ans;
 }
 };
-
 
 int main(){
 int t;
